@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --colorPrimary: #302f2f;
+  --colorSecondary: #2d1e2f;
+}
+body {
+  background: white;
+}
+/*------------Header-----------*/
+header {
+  background: var(--colorPrimary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20%;
+}
+.nav {
+  width: 50%;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+li {
+  padding: 1.5rem;
+  border-left: 1px solid rgb(109, 109, 109);
+}
+.liBorder {
+  border-right: 1px solid rgb(109, 109, 109);
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 2rem;
+}
+a:hover {
+  color: blue;
+}
+button {
+  background-color: rgb(109, 109, 109);
+  color: white;
+  padding: 1.5rem;
+}
+.contLogo {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(109, 109, 109);
+}
+.logo {
+  width: 20%;
+  margin-top: 3rem;
+}
+/*------------HOME PAGE-----------*/
+.cont-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*------------CAROUSSEL----------*/
+
+.caroussel {
+  margin-top: 2rem;
+  background: red;
+  height: 25rem;
+  width: 60%;
+}
+.caroussel img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+}
+/*------------DIV DE GAUCHE----------*/
+
+.box-home {
+  width: 60%;
+  display: flex;
+  margin-top: 2rem;
+}
+.box {
+  height: auto;
+  border: 1px solid rgb(109, 109, 109);
+}
+.box-left {
+  width: 70%;
+  padding: 2rem;
+}
+
+.box-left img {
+  width: 100%;
+}
+/*------------DIV DE DROITE-----------*/
+.box-right {
+  padding: 1rem;
+  width: 30%;
+  flex-direction: column;
+}
+.recherche {
+  margin-bottom: 1.5rem;
+}
+h4 {
+  color: blue;
+  margin-bottom: 1rem;
+}
+.last-post {
+  display: flex;
+}
+.last-post img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+.last-post-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
+}
+.last-post-content p {
+  font-size: 12px;
+}
